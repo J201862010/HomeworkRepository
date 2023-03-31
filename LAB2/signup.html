@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INTERNET-PROGRAMMING SHOP Signup</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+
+        <hr />
+
+        <p class="padding"><a href="login.html">로그인</a> <a href=signup.html>회원가입</a></p>
+
+        <hr />
+
+        <div class="form">
+            <h3>개인 정보</h3>
+            <form method="GET">
+               <p>
+                    <label>이름 : <input name="name" type="text" autofocus/></label>
+               </p>
+               <p>
+                    <label>생년월일 : <input name="birthday" type="date" /></label>
+               </p>
+               <p> 
+                    <label>성별 : <input name="gender" type="checkbox" value="남자">남자</label>
+                    <label><input name="gender" type="checkbox" value="여자">여자</label>
+               </p>
+               <p>
+                    <label>학년 : <input name="grade" type="number" min="1" max="7" step="1" value="1"/></label>
+               </p>
+               <p>
+                    <label>전화번호 : <input name="tel" placeholder="###-####-###" pattern="\d{3}-\d{3}-\d{4}" type="tel" /></label>('-' 포함)
+               </p>
+               <p>
+                    <label>아이디 : <input name="id" type="text" autocomplete required /></label>
+               </p>
+               <p>
+                    <label>비밀번호 : <input name="passward" placeholder="6자리 이상" type="password" required/></label>
+               </p>
+               <p>
+                    <label>비밀번호 확인 : <input name="password" type="password"/></label>
+               </p>
+               <p>
+                    <label>개인정보 수집 동의 : <input type="radio" vaule="동의">동의</label>
+                    <label><input type="radio" vaule="미동의">미동의</label>
+               </p>
+
+                <input class="submit" type="submit" value="Signup"></input>
+                <input class="cancel" type="reset" value="Cancel"></input>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Jal_Haru';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Haru.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    background-color: #FFE6E6;
+}
+
+h1{
+    font-family: 'Jal_Haru';
+    font-size: 30pt;
+    text-align: center;
+    padding: 1em;
+}
+
+hr {
+    border: 0px;
+    border-top: 5px solid #777;
+}
+
+
+p.padding {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ddd; 
+}
+
+p.padding a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.form {
+    margin: 1em;
+}
+
+.submit {
+    background-color: green;
+}
+
+.cancel {
+    background-color: red;
+}
+
+.login {
+    background-color: chartreuse;
+}
+
+.signup {
+    background-color: aqua;
+}
+
+.signup a{
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+}

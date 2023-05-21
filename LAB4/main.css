@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Jal_Haru';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Haru.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    background-color: #FFE6E6;
+    font-family: 'Jal_Haru';
+}
+
+h1 {
+    font-family: 'Jal_Haru';
+    font-size: 30pt;
+    text-align: center;
+    padding: 1em;
+}
+
+hr {
+    border: 0px;
+    border-top: 5px solid #777;
+}
+
+p.padding {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ddd; 
+}
+
+p.padding a {
+    text-decoration: none;
+    color: black;
+}
+
+.form {
+    margin: 1em;
+}
+
+.submit {
+    background-color: green;
+}
+
+.cancel {
+    background-color: red;
+}
+
+.login {
+    background-color: chartreuse;
+}
+
+.signup {
+    background-color: aqua;
+}
+
+.signup a{
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+}
+.h1_move {
+    position: relative;
+    font-family: 'Jal_Haru';
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 1em;
+    animation-name: myfirst;
+    animation-duration: 2s;
+}   
+
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    justify-content: left;
+}
+
+.flex_container a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.main_flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.main_flex_container > div {
+    display: flex;
+    border: 1px solid #ddd;
+    padding-right: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.main_flex_container .div {
+    display: flex;
+    border: 1px solid #777;
+    padding-right: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+div > span {
+    margin: 10px;
+    border: 1px solid #dddd;
+}
+
+span > .text {
+    display: none;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+img:hover{
+    transform: scale(2);
+    transition-duration: 2s;
+    color: #777;
+    opacity: 1;
+}
+
+.vertial {
+    column-count: 2;
+    column-gap: 10px;
+    column-rule-style: solid;
+    column-rule-color: #777;
+}
+
+  
+/* ex */
+
+@media screen and (max-width: 1200px){
+    body, body div {
+      display: grid;
+      max-width: 480px;
+    }
+    header {
+      grid-row: 1;
+      margin-top: 10px;
+    }  
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      background: url(icons/bean_can.png) no-repeat 0% center, url(icons/bean_can.png) no-repeat 100% center;
+      background-size: 48px 48px;
+    }
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+  
+h2 {
+    font-size: 2rem;
+    width: 160px;
+    right: 4%;
+    z-index: 3000;
+    line-height: 2rem;
+    padding-top: 0.3rem;
+}
+
+/* form */
+aside {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+  }
+
+  aside {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+  }
+  
+  aside div {
+    margin-bottom: 20px;
+  }
+  
+  label, select, input {
+    display: block;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  select, input, button {
+    width: 100%;
+  }
+  
+  input {
+    box-shadow: inset 1px 1px 1px white;
+    border: none;
+    padding: 5px;
+    width: 201.5px;
+  }
+  
+  button {
+    padding: 5px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
+  }
+
+
+  /*  */
+
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  section {
+    width: 45%;
+    margin: 5px;
+    position: relative;
+    height: 215px;
+  }
+
+  section p {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px #777;
+    position: absolute;
+    right: 10px;
+    bottom: -6px;
+    z-index: 2000;
+  }
+  

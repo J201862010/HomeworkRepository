@@ -1,0 +1,52 @@
+[
+    {
+      "name": "HTML1",
+      "price": 100,
+      "image": "HTML5_1.jpg",
+      "type": "HTML"
+    },
+    {
+      "name": "HTML2",
+      "price": 200,
+      "image": "HTML5_2.jpg",
+      "type": "HTML"
+    },
+    {
+      "name": "HTML3",
+      "price": 150,
+      "image": "HTML5_3.jpg",
+      "type": "HTML"
+    },
+    {
+      "name": "HTML4",
+      "price": 300,
+      "image": "HTML5_4.jpg",
+      "type": "HTML"
+    },
+    {
+      "name": "JavaScript1",
+      "type" : "JavaScript",
+      "price": 250,
+      "image": "js_1.jpg"
+    },
+
+    {
+      "name": "JavaScript2",
+      "type" : "JavaScript",
+      "price": 350,
+      "image": "js_2.jpg"
+    },
+    {
+      "name": "JavaScript3",
+      "type" : "JavaScript",
+      "price": 120,
+      "image": "js_3.jpg"
+    },
+    {
+      "name": "JavaScript4",
+      "type" : "JavaScript",
+      "price": 180,
+      "image": "js_4.jpg"
+    }
+  ]
+  
